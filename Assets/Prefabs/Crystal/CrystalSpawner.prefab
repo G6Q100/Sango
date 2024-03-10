@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &419191775492741448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6458661122896188388}
+  - component: {fileID: 7863706997002757100}
+  m_Layer: 0
+  m_Name: CrystalSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6458661122896188388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419191775492741448}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -32.7, y: 57.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7863706997002757100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419191775492741448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2be8413856d5d48813c82aa518662a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookPos: {x: 0, y: 0, z: 0}
+  playerPos: {x: 0, y: 0, z: 0}
+  speed: 200
+  dampingSpeed: 0
+  attackCD: 0
+  currentCD: 0
+  range: 15
+  mode: 1
+  rotateSpeed: 20
+  maxRotateTime: 9
+  damage: 0
+  attackTime: 0
+  crystal: {fileID: 8979929846971085983, guid: 58ebec2f59dd8a44693d140ec6fb24d0, type: 3}
+  explosion: {fileID: 8244960651423837270, guid: 8ed1afd7836aeb141afdc373228244fa, type: 3}
